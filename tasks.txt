@@ -1,0 +1,3 @@
+# use the loop to calculate the sum of the numbers below
+numbers = {10, 15, 20, 8, 15}
+
