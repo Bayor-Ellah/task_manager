@@ -20,7 +20,8 @@ def get_tasks():
 
 
 
-def update_tasks(task,update):
+def update_tasks(id, update):
     #update task in database
+    db.tasks.update_one({"_id": id}, {"$set": update})
     #return response
     return True
